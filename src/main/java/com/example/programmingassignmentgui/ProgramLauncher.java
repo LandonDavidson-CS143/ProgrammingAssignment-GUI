@@ -1,3 +1,14 @@
+/*
+Name: Landon Davidson
+Section: 32768
+Program Name: ProgramLauncher
+
+Description: ProgramLauncher defines the start method, which creates an
+instance of Calculator as well as an AnchorPane and a TextField for
+the UI. This is also where the Timeline animation for the bouncing
+name and fading background is defined.
+ */
+
 package com.example.programmingassignmentgui;
 
 import javafx.animation.KeyFrame;

@@ -1,3 +1,24 @@
+/*
+Name: Landon Davidson
+Section: 32768
+Program Name: Calculator
+
+Description: This is where all the calculator buttons are created, and
+also where the logic for the actual calculation is. Calculator
+creates a TilePane to arrange all the Buttons with, which is accessed in
+ProgramLauncher via the getPane() method. The way that the actual calculation
+works is that I first split the input text field into an array of numbers, by
+splitting on the four operators, as well as an array of operators, by
+removing all numbers from the TextField. With those arrays I then make
+a two-dimensional array list, and whenever the for loop sees a + or - sign
+it creates a new ArrayList within the main one. This is to ensure the
+operations are done in the same order, essentially simulating individual
+terms like "3x/2". The way I account for division is by reciprocating the
+divisor (Ex: 5/2 becomes 5 * 0.5, or 5 * 1/2)Once the arrays are all made
+I then loop through all of them again, multiplying each of the terms
+within each subarray and adding each of the products together.
+ */
+
 package com.example.programmingassignmentgui;
 
 import javafx.beans.property.SimpleStringProperty;
